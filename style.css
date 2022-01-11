@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Merriweather+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+/* font-family: 'Merriweather Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Balsamiq Sans', cursive;
+    height: 100vh;
+    background-color:#D0AAF3 ;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #350C5A;
+    height: fit-content;
+    width: 300px;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 50px 0;
+    transition: 500ms;
+    box-shadow: 0 5px 5px -4px black;
+}
+h1{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.email{
+    padding: 5px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: #D0AAF3;
+    color: #350C5A;
+    border-radius: 5px;
+}
+.pass{
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    background-color: #D0AAF3;
+    color: #350C5A;
+}
+.pass::placeholder{
+    color: #350C5A;
+
+}
+.btn{
+    padding: 5px;
+    width: 150px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    background-color: #D0AAF3;
+    color: #350C5A;
+    border-radius: 5px;
+    transition: 500ms;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+    cursor: pointer;
+}
+.email::placeholder{
+    color:#350C5A;
+}
